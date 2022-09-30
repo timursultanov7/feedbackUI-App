@@ -1,4 +1,4 @@
-import { ReactPropTypes } from "react";
+// import { ReactPropTypes } from "react";
 const Button = ({ children, version, type, isDisabled }) => {
   return (
     <div>
@@ -11,12 +11,6 @@ const Button = ({ children, version, type, isDisabled }) => {
       </button>
     </div>
   );
-};
-
-Button.defaultProps = {
-  version: "primary",
-  type: "button",
-  isDisabled: false,
 };
 
 // Button.ReactPropTypes = { children: ReactPropTypes.node.isRequired,

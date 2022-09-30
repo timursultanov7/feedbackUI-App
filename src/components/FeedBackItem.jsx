@@ -1,4 +1,4 @@
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import Card from "./shared/Card";
 
 import { FaTimes, FaEdit } from "react-icons/fa";
